@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.coin-bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-container {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 9px;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #a35200;
+}
+.para-text {
+  color: #334155;
+  font-weight: 500;
+}
+.image {
+  height: 180px;
+  width: 180px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  padding: 9px;
+  width: 100px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 0px;
+}
+@media screen and (min-width: 768px) {
+  .toss-coin-texts {
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    font-family: 'Roboto';
+    color: #334155;
+  }
+  p {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
